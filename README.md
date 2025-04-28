@@ -21,8 +21,6 @@
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white" />
   <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
@@ -34,12 +32,12 @@
 
 ---
 
-### 🔥 Current Focus
-- 🧠 **Temporal Graph Networks** for dynamic graph learning.
-- 🏥 **Next-gen 3D medical image segmentation** (beyond SegFormer3D).
-- 🛡️ **AI-powered malware detection** from sandbox analysis and JSON graphs.
-- 🛰️ **Building edge-deployable ML pipelines**.
-- 🎯 **Pushing boundaries in deep learning research**.
+###  Current Focus
+-  **Temporal Graph Networks** for dynamic graph learning.
+-  **Next-gen 3D medical image segmentation** (beyond SegFormer3D).
+-  **AI-powered malware detection** from sandbox analysis and JSON graphs.
+-  **Building edge-deployable ML pipelines**.
+-  **Pushing boundaries in deep learning research**.
 
 ---
 
@@ -59,19 +57,19 @@
 
 ---
 
-### 🚀 Latest Projects
-- 🧩 [Dynamic Graph Learning - Wikipedia Dataset Temporal GNNs](#)
-- 🏥 [3D Segmentation Architecture for Brain Tumor Analysis (BRATS 2020)](#)
-- 🛡️ [Malware Detection via Transformer on Sandbox Reports](#)
+###  Latest Projects
+-  [Dynamic Graph Learning - Wikipedia Dataset Temporal GNNs](#)
+-  [3D Segmentation Architecture for Brain Tumor Analysis (BRATS 2020)](#)
+-  [Malware Detection via Transformer on Sandbox Reports](#)
 
 
 ---
 
-### 🤝 Let's Collaborate!
-- 🚀 Looking for research collaborations and open-source contributions!
-- 📬 Reach out to me: **[kavyansh.tyagi@email.com](mailto:kavyansh.tyagi@email.com)** 
-- 🌐 Connect on [**LinkedIn**](https://linkedin.com/in/kavyansh-tyagi)
+###  Let's Collaborate!
+-  Looking for research collaborations and open-source contributions!
+-  Reach out to me: **[kavyansh.tyagi@email.com](mailto:kavyansh.tyagi@email.com)** 
+-  Connect on [**LinkedIn**](https://linkedin.com/in/kavyansh-tyagi)
 
 ---
 
-<h3 align="center">"Research boldly. Build fearlessly. Create impact." ✨</h3>
+<h3 align="center">"Research boldly. Build fearlessly. Create impact." </h3>
