@@ -1,14 +1,14 @@
-<h1 align="center">Hi there, I'm Kavyansh Tyagi 👋</h1>
-<h3 align="center">🚀 Researcher | Developer | Innovator | Lifelong Learner 🚀</h3>
+<h1 align="center">Hi there, I'm Kavyansh Tyagi </h1>
+<h3 align="center"> Researcher | Developer | Innovator | Lifelong Learner </h3>
 
 ---
 
-### 🧠 About Me
-- 🎓 Undergraduate researcher at **NIT Kurukshetra** specializing in **AI**, **Graph Neural Networks**, **Computer Vision**, and **Cybersecurity**.
-- 📚 Publishing research at **Springer**, **Elsevier** — aiming for **NeurIPS**, **ICLR**, **CVPR** next.
-- 🧩 Exploring the frontier of **dynamic systems modeling**, **medical imaging**, and **AI for cybersecurity**.
-- 🛠️ Designing scalable AI architectures for real-world applications.
-- 🌎 Passionate about **open-source**, **efficient AI**, and **edge intelligence**.
+###  About Me
+-  Undergraduate researcher at **NIT Kurukshetra** specializing in **AI**, **Graph Neural Networks**, **Computer Vision**, and **Cybersecurity**.
+-  Publishing research at **Springer**, **Elsevier** — aiming for **NeurIPS**, **ICLR**, **CVPR** next.
+-  Exploring the frontier of **dynamic systems modeling**, **medical imaging**, and **AI for cybersecurity**.
+-  Designing scalable AI architectures for real-world applications.
+-  Passionate about **open-source**, **efficient AI**, and **edge intelligence**.
 
 ---
 
@@ -46,29 +46,29 @@
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kavyansh-Tyagi&show_icons=true&theme=transparent&count_private=true&hide_border=true&hide=issues" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kavyanshtyagi&show_icons=true&theme=transparent&count_private=true&hide_border=true&hide=issues" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Kavyansh-Tyagi&theme=transparent&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=kavyanshtyagi&theme=transparent&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kavyansh-Tyagi&theme=github-compact&hide_border=true" alt="GitHub Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kavyanshtyagi&theme=github-compact&hide_border=true" alt="GitHub Contribution Graph" />
 </p>
 
 ---
 
 ### 🚀 Latest Projects
-- 🧩 [Dynamic Graph Learning - Wikipedia Dataset Temporal GNNs](https://github.com/your-repo-link)
-- 🏥 [3D Segmentation Architecture for Brain Tumor Analysis (BRATS 2020)](https://github.com/your-repo-link)
-- 🛡️ [Malware Detection via Transformer on Sandbox Reports](https://github.com/your-repo-link)
-- 📦 [Edge Deployable Depth Estimation App in Rust (GSoC '24 Proposal)](https://github.com/your-repo-link)
+- 🧩 [Dynamic Graph Learning - Wikipedia Dataset Temporal GNNs](#)
+- 🏥 [3D Segmentation Architecture for Brain Tumor Analysis (BRATS 2020)](#)
+- 🛡️ [Malware Detection via Transformer on Sandbox Reports](#)
+
 
 ---
 
 ### 🤝 Let's Collaborate!
-- 🚀 Looking for research collaborations, internships, and open-source contributions!
+- 🚀 Looking for research collaborations and open-source contributions!
 - 📬 Reach out to me: **[kavyansh.tyagi@email.com](mailto:kavyansh.tyagi@email.com)** 
 - 🌐 Connect on [**LinkedIn**](https://linkedin.com/in/kavyansh-tyagi)
 
