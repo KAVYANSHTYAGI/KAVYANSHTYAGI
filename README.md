@@ -4,12 +4,12 @@
 
 ---
 
-### 🧠 About Me
-- 🎓 Undergraduate researcher at **NIT Kurukshetra**, specializing in **AI**, **Graph Neural Networks**, **Computer Vision**, and **Cybersecurity**.
-- 📚 Publishing research in **Springer** and **Elsevier** — aiming next for **NeurIPS**, **CVPR**, and **ICLR**.
-- 🧬 Passionate about **dynamic systems modeling**, **3D medical imaging**, and **AI-driven cybersecurity**.
-- 🏗️ Designing scalable, production-ready AI architectures.
-- 🌱 Contributor to **open-source**, obsessed with **efficient AI**, and focused on **edge intelligence**.
+###  About Me
+-  Undergraduate researcher at **NIT Kurukshetra**, specializing in **AI**, **Graph Neural Networks**, **Computer Vision** and **Cybersecurity**.
+-  Publishing research in **Springer** and **Elsevier** — aiming next for **NeurIPS**, **CVPR** and **ICLR**.
+-  Passionate about **dynamic systems modeling**, **3D medical imaging** and **AI-driven cybersecurity**.
+-  Designing scalable, production-ready AI architectures.
+-  Contributor to **open-source**, obsessed with **efficient AI** and focused on **edge intelligence**.
 
 ---
 ### ⚒️ Technologies and Tools
@@ -68,24 +68,24 @@
 
 ---
 
-### 🔬 Current Focus
-- ⏳ **Temporal Graph Networks** for dynamic learning tasks.
-- 🧠 **Advanced 3D medical image segmentation** architectures beyond SegFormer3D.
-- 🛡️ **Transformer-based malware detection** using sandbox logs & graphs.
-- ⚡ **Edge-deployable pipelines** for real-time inference.
-- 📊 Publishing & benchmarking in deep learning research.
+###  Current Focus
+-  **Temporal Graph Networks** for dynamic learning tasks.
+-  **Advanced 3D medical image segmentation** architectures beyond SegFormer3D.
+-  **Transformer-based malware detection** using sandbox logs & graphs.
+-  **Edge-deployable pipelines** for real-time inference.
+-  Publishing & benchmarking in deep learning research.
 
 ---
 
-### 🌟 Highlights
-- 📝 Research published in **Springer** and **Elsevier** journals.
-- 📈 Built 5+ applied AI prototypes in healthcare and cybersecurity.
-- 🧪 Hands-on with full AI pipelines: data → modeling → deployment.
-- 🌍 Open-source contributor; created novel GNN and vision models.
+###  Highlights
+-  Research published in **Springer** and **Elsevier** journals.
+-  Built 5+ applied AI prototypes in healthcare and cybersecurity.
+-  Hands-on with full AI pipelines: data → modeling → deployment.
+-  Open-source contributor; created novel GNN and vision models.
 
 ---
 
-### 📈 GitHub Stats
+###  GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=kavyanshtyagi&show_icons=true&theme=transparent&count_private=true&hide_border=true&hide=issues" />
@@ -97,27 +97,27 @@
 
 ---
 
-### 🚀 Latest Projects
+###  Latest Projects
 
-- 🔁 **[Temporal GNNs - Wikipedia Dataset](#)**  
+-  **[Temporal GNNs - Wikipedia Dataset](#)**  
   Fine-tuning node and edge evolution models with PyTorch Geometric Temporal.
 
-- 🧠 **[3D Brain Tumor Segmentation (BRATS)](#)**  
+-  **[3D Brain Tumor Segmentation (BRATS)](#)**  
   Custom hybrid model architecture exceeding SegFormer3D benchmarks.
 
-- 🔐 **[Malware Detection with Transformers](#)**  
+-  **[Malware Detection with Transformers](#)**  
   Converts Cuckoo Sandbox JSON reports into graph-based transformers for ransomware detection.
 
 ---
 
-### 🧑‍💼 Open to Internships!
-🎯 Actively looking for **Summer 2025 AI/ML internships** in:
+###  Open to Internships!
+ Actively looking for **Summer 2025 AI/ML internships** in:
 - Computer Vision / GNN / NLP
 - AI for Healthcare / Security
 - Research Labs / Open-Source Fellowships
 
-📩 Reach out at: **[kavyansh.tyagi@email.com](mailto:kavyansh.tyagi@email.com)**  
-🔗 Connect on [**LinkedIn**](https://linkedin.com/in/kavyansh-tyagi)
+ Reach out at: **[kavyansh.tyagi@email.com](mailto:kavyansh.tyagi@email.com)**  
+ Connect on [**LinkedIn**](https://linkedin.com/in/kavyansh-tyagi)
 
 ---
 
