@@ -12,7 +12,6 @@
 - 🌱 Contributor to **open-source**, obsessed with **efficient AI**, and focused on **edge intelligence**.
 
 ---
-
 ### ⚒️ Technologies and Tools
 
 <p align="center">
@@ -20,13 +19,21 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jython-4B8BBE?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MicroPython-2C3E50?style=for-the-badge&logo=micropython&logoColor=white" />
+  <img src="https://img.shields.io/badge/Verilog-ED1C24?style=for-the-badge&logo=verilog&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" />
 
   <!-- Core ML/DL -->
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
   <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
+  <img src="https://img.shields.io/badge/JAX-3EBA77?style=for-the-badge&logo=jax&logoColor=black" />
   <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/LightGBM-9ACD32?style=for-the-badge&logo=lightgbm&logoColor=black" />
+  <img src="https://img.shields.io/badge/XGBoost-EC7026?style=for-the-badge" />
 
   <!-- Vision/NLP/Graph -->
   <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white" />
@@ -35,12 +42,28 @@
   <img src="https://img.shields.io/badge/torch_geometric-9933cc?style=for-the-badge" />
   <img src="https://img.shields.io/badge/NetworkX-003366?style=for-the-badge" />
 
-  <!-- ML Ops & Tools -->
+  <!-- MLOps & Infra -->
   <img src="https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black" />
+  <img src="https://img.shields.io/badge/DVC-13AA52?style=for-the-badge&logo=dvc&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+
+  <!-- Embedded / Hardware -->
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
+  <img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Xilinx-E21F25?style=for-the-badge&logo=xilinx&logoColor=white" />
+  <img src="https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+</p>
+
+---
+
+### 📊 Code Stats
+<p align="center">
+  <img src="https://img.shields.io/badge/Lines_of_Code-500,000%2B-blue?style=for-the-badge" />
+  <br/>
+  <i>Across Python, C++, Verilog, and more from research projects, ML models, and open-source contributions.</i>
 </p>
 
 ---
