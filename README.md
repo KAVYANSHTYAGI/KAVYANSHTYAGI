@@ -1,74 +1,100 @@
-<h1 align="center">Hi there, I'm Kavyansh Tyagi </h1>
-<h3 align="center"> Researcher | Developer | Innovator | Lifelong Learner </h3>
+
+<h1 align="center">Hi there, I'm Kavyansh Tyagi 👋</h1>
+<h3 align="center">Researcher | Developer | Innovator | Lifelong Learner</h3>
 
 ---
 
-###  About Me
--  Undergraduate researcher at **NIT Kurukshetra** specializing in **AI**, **Graph Neural Networks**, **Computer Vision**, and **Cybersecurity**.
--  Publishing research at **Springer**, **Elsevier** — aiming for **NeurIPS**, **ICLR**, **CVPR** next.
--  Exploring the frontier of **dynamic systems modeling**, **medical imaging**, and **AI for cybersecurity**.
--  Designing scalable AI architectures for real-world applications.
--  Passionate about **open-source**, **efficient AI**, and **edge intelligence**.
+### 🧠 About Me
+- 🎓 Undergraduate researcher at **NIT Kurukshetra**, specializing in **AI**, **Graph Neural Networks**, **Computer Vision**, and **Cybersecurity**.
+- 📚 Publishing research in **Springer** and **Elsevier** — aiming next for **NeurIPS**, **CVPR**, and **ICLR**.
+- 🧬 Passionate about **dynamic systems modeling**, **3D medical imaging**, and **AI-driven cybersecurity**.
+- 🏗️ Designing scalable, production-ready AI architectures.
+- 🌱 Contributor to **open-source**, obsessed with **efficient AI**, and focused on **edge intelligence**.
 
 ---
 
-### 🛠️ Technologies and Tools
+### ⚒️ Technologies and Tools
 
 <p align="center">
+  <!-- Languages -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+
+  <!-- Core ML/DL -->
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
   <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white" />
   <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Graph%20Neural%20Networks-007ACC?style=for-the-badge" />
+
+  <!-- Vision/NLP/Graph -->
+  <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/Transformers-ffcc00?style=for-the-badge&logo=transformers&logoColor=black" />
+  <img src="https://img.shields.io/badge/torch_geometric-9933cc?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/NetworkX-003366?style=for-the-badge" />
+
+  <!-- ML Ops & Tools -->
+  <img src="https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
 </p>
 
 ---
 
-###  Current Focus
--  **Temporal Graph Networks** for dynamic graph learning.
--  **Next-gen 3D medical image segmentation** (beyond SegFormer3D).
--  **AI-powered malware detection** from sandbox analysis and JSON graphs.
--  **Building edge-deployable ML pipelines**.
--  **Pushing boundaries in deep learning research**.
+### 🔬 Current Focus
+- ⏳ **Temporal Graph Networks** for dynamic learning tasks.
+- 🧠 **Advanced 3D medical image segmentation** architectures beyond SegFormer3D.
+- 🛡️ **Transformer-based malware detection** using sandbox logs & graphs.
+- ⚡ **Edge-deployable pipelines** for real-time inference.
+- 📊 Publishing & benchmarking in deep learning research.
+
+---
+
+### 🌟 Highlights
+- 📝 Research published in **Springer** and **Elsevier** journals.
+- 📈 Built 5+ applied AI prototypes in healthcare and cybersecurity.
+- 🧪 Hands-on with full AI pipelines: data → modeling → deployment.
+- 🌍 Open-source contributor; created novel GNN and vision models.
 
 ---
 
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kavyanshtyagi&show_icons=true&theme=transparent&count_private=true&hide_border=true&hide=issues" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=kavyanshtyagi&theme=transparent&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kavyanshtyagi&theme=github-compact&hide_border=true" alt="GitHub Contribution Graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kavyanshtyagi&show_icons=true&theme=transparent&count_private=true&hide_border=true&hide=issues" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=kavyanshtyagi&theme=transparent&hide_border=true" />
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kavyanshtyagi&theme=github-compact&hide_border=true" />
 </p>
 
 ---
 
-###  Latest Projects
--  [Dynamic Graph Learning - Wikipedia Dataset Temporal GNNs](#)
--  [3D Segmentation Architecture for Brain Tumor Analysis (BRATS 2020)](#)
--  [Malware Detection via Transformer on Sandbox Reports](#)
+### 🚀 Latest Projects
 
+- 🔁 **[Temporal GNNs - Wikipedia Dataset](#)**  
+  Fine-tuning node and edge evolution models with PyTorch Geometric Temporal.
+
+- 🧠 **[3D Brain Tumor Segmentation (BRATS)](#)**  
+  Custom hybrid model architecture exceeding SegFormer3D benchmarks.
+
+- 🔐 **[Malware Detection with Transformers](#)**  
+  Converts Cuckoo Sandbox JSON reports into graph-based transformers for ransomware detection.
 
 ---
 
-###  Let's Collaborate!
--  Looking for research collaborations and open-source contributions!
--  Reach out to me: **[kavyansh.tyagi@email.com](mailto:kavyansh.tyagi@email.com)** 
--  Connect on [**LinkedIn**](https://linkedin.com/in/kavyansh-tyagi)
+### 🧑‍💼 Open to Internships!
+🎯 Actively looking for **Summer 2025 AI/ML internships** in:
+- Computer Vision / GNN / NLP
+- AI for Healthcare / Security
+- Research Labs / Open-Source Fellowships
+
+📩 Reach out at: **[kavyansh.tyagi@email.com](mailto:kavyansh.tyagi@email.com)**  
+🔗 Connect on [**LinkedIn**](https://linkedin.com/in/kavyansh-tyagi)
 
 ---
 
