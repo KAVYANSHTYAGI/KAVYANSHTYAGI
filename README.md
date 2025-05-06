@@ -61,7 +61,7 @@
 
 ### 📊 Code Stats
 <p align="center">
-  <img src="https://img.shields.io/badge/Lines_of_Code-500,000%2B-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Lines_of_Code-6,843,452%2B-blue?style=for-the-badge" />
   <br/>
   <i>Across Python, C++, Verilog, and more from research projects, ML models, and open-source contributions.</i>
 </p>
