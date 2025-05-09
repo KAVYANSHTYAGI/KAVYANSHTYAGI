@@ -116,8 +116,8 @@
 - AI for Healthcare / Security
 - Research Labs / Open-Source Fellowships
 
- Reach out at: **[kavyansh.tyagi@email.com](mailto:kavyansh.tyagi@email.com)**  
- Connect on [**LinkedIn**](https://linkedin.com/in/kavyansh-tyagi)
+ Reach out at: **[kavyansh.tyagi@email.com](mailto:kavyansh.tyagi7@gemail.com)**  
+ Connect on [**LinkedIn**](https://www.linkedin.com/in/kavyansh-tyagi-9b5410264/)
 
 ---
 
