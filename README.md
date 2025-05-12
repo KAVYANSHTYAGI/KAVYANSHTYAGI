@@ -12,7 +12,7 @@
 -  Contributor to **open-source**, obsessed with **efficient AI** and focused on **edge intelligence**.
 
 ---
-### ⚒️ Technologies and Tools
+### Technologies and Tools
 
 <p align="center">
   <!-- Languages -->
@@ -59,7 +59,7 @@
 
 ---
 
-### 📊 Code Stats
+### Code Stats
 <p align="center">
   <img src="https://img.shields.io/badge/Lines_of_Code-6,843,452%2B-blue?style=for-the-badge" />
   <br/>
