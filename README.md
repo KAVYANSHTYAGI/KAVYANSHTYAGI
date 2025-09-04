@@ -4,10 +4,6 @@
   <em>3rd Year Undergraduate Researcher at NIT Kurukshetra (India)</em>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kavyanshtyagi&label=Profile%20views&color=0e75b6&style=flat" alt="kavyanshtyagi" />
-  <img src="https://img.shields.io/github/followers/kavyanshtyagi?label=Followers&style=social" alt="GitHub Badge">
-</p>
 
 ---
 
