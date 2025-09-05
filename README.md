@@ -13,9 +13,8 @@ I am an undergraduate researcher focused on **efficient deep learning architectu
 My research spans **3D medical image segmentation**, **neuromorphic liquid neural networks**, and **graph-based learning systems**, with applications in healthcare and hyperspectral analysis.  
 
 **Research Highlights:**
-- 📚 **Publications**: Springer & Elsevier journals  
-- 🎯 **Conference**: Accepted at **WACV 2025**, targeting **NeurIPS, CVPR, ICLR**  
-- 🛠️ **Open Source**: Contributor to **PyTorch Lightning** & **OpenCV**  
+- 📚 **Publications**: Springer & Elsevier journals    
+- 🛠️ **Open Source**: Contributor to **PyTorch Lightning** & **OpenCV ** & **SnnTorch**  
 - 🔬 **Focus**: Building architectures that deliver **higher segmentation accuracy than existing state-of-the-art approaches** with lower computational costs  
 
 ---
