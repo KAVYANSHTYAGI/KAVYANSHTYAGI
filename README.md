@@ -118,9 +118,8 @@ My research spans **3D medical image segmentation**, **neuromorphic liquid neura
 
 ## 🏆 Achievements & Recognition
 
-- 📚 **Published in Springer & Elsevier journals**  
-- 🎯 **WACV 2025 accepted paper**  
-- 🌟 **Contributor to PyTorch Lightning & OpenCV**  
+- 📚 **Published in Springer & Elsevier journals**   
+- 🌟 **Contributor to PyTorch Lightning & OpenCV & SnnTorch**  
 - 🔬 **Targeting top-tier Core A\* conferences (NeurIPS, CVPR, ICLR)**  
 - 💡 **Developed novel architectures in 3D vision, neuromorphic AI, and hyperspectral learning**  
 
