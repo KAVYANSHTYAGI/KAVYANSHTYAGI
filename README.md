@@ -14,7 +14,7 @@ My research spans **3D medical image segmentation**, **neuromorphic liquid neura
 
 **Research Highlights:**
 - 📚 **Publications**: Springer & Elsevier journals    
-- 🛠️ **Open Source**: Contributor to **PyTorch Lightning** & **OpenCV ** & **SnnTorch**  
+- 🛠️ **Open Source**: Contributor to **PyTorch Lightning** & **OpenCV** & **SnnTorch**  
 - 🔬 **Focus**: Building architectures that deliver **higher segmentation accuracy than existing state-of-the-art approaches** with lower computational costs  
 
 ---
@@ -81,8 +81,7 @@ My research spans **3D medical image segmentation**, **neuromorphic liquid neura
 ### 🧠 RefineFormer3D: Efficient 3D Segmentation
 **Tech Stack:** PyTorch, CUDA, Medical Imaging Libraries  
 **Contribution:** A lightweight transformer-based model achieving **higher segmentation accuracy than existing state-of-the-art approaches** while reducing GFLOPs and parameter count  
-**Impact:** Strong results on BraTS & Synapse datasets  
-**Status:** WACV 2025 (accepted), extended NeurIPS/CVPR submission planned  
+**Impact:** Strong results on BraTS & Synapse datasets   
 
 ### 📡 Spectral Causal Neural Field (SCNF)  
 **Tech Stack:** Torch, Fourier Operators, Spectral Analysis  
