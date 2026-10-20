@@ -40,11 +40,11 @@ I build **efficient, robust models** for settings where compute, memory and priv
 | Paper | Venue |
 |---|---|
 | **Beyond the Frame: Redundancy, Not Trajectory, Carries the Privacy Leak in Video Unlearning** (PACE) · Tyagi & Russo · [project page](https://kavyanshtyagi.github.io/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning/) · [code](https://github.com/KAVYANSHTYAGI/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning) | WACV 2027 |
-| **Rate as a Feature, Not a Nuisance: Curriculum-FiLM Event GNN** (CEGNN) · Tyagi et al. · [code](https://github.com/kavyanshtyagi/CE-GNN) | ACCV 2026 Workshops (AECV) |
+| **Rate as a Feature, Not a Nuisance: Curriculum-FiLM Event GNN** (CEGNN) · Tyagi et al. · [code](https://github.com/kavyanshtyagi/CE-GNN) | ACCV 2026 Workshop on Advances in Event-based Computer Vision (AECV) |
 | **LightMedSeg: Lightweight 3D Medical Image Segmentation with Learned Spatial Anchors** · Tyagi, Rathi, Goyal · [arXiv](https://arxiv.org/abs/2603.07228) | CVPR Workshops (ECV) 2026 |
 | **RefineFormer3D: Efficient 3D Medical Image Segmentation via Adaptive Multi-Scale Transformer with Cross Attention Fusion** · Tyagi, Rathi, Goyal · [arXiv](https://arxiv.org/abs/2602.16320) | Preprint, 2026 |
 | **SCAF: Robust Hyperspectral Classification via Optimal Transport-Based Spectral Grouping** · Tyagi et al. | Preprint, under review |
-| **Ghidra-Assisted Static Analysis and Ensemble Learning with Differential-Privacy GANs for Ransomware Detection** · Chaturvedi et al. | ICDAM 2025 |
+| **Ghidra-Assisted Static Analysis and Ensemble Learning with Differential-Privacy GANs for Ransomware Detection** · Chaturvedi, Tyagi, Sharma, Sah · [proceedings](https://link.springer.com/book/10.1007/978-3-032-02949-2) | ICDAM 2025 (Springer) |
 
 ---
 
