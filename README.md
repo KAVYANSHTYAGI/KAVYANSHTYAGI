@@ -40,6 +40,7 @@ I build **efficient, robust models** for settings where compute, memory and priv
 | Paper | Venue |
 |---|---|
 | **Beyond the Frame: Redundancy, Not Trajectory, Carries the Privacy Leak in Video Unlearning** (PACE) · Tyagi & Russo · [project page](https://kavyanshtyagi.github.io/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning/) · [code](https://github.com/KAVYANSHTYAGI/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning) | WACV 2027 |
+| **ADVR: Adversarial-Replay Unlearning for Leak-Safe Semantic Segmentation** · Tyagi et al. · [code](https://github.com/KAVYANSHTYAGI/advr-unlearning) | Under review, 2026 |
 | **Rate as a Feature, Not a Nuisance: Curriculum-FiLM Event GNN** (CEGNN) · Tyagi et al. · [code](https://github.com/kavyanshtyagi/CE-GNN) | ACCV 2026 Workshop on Advances in Event-based Computer Vision (AECV) |
 | **LightMedSeg: Lightweight 3D Medical Image Segmentation with Learned Spatial Anchors** · Tyagi, Rathi, Goyal · [arXiv](https://arxiv.org/abs/2603.07228) | CVPR Workshops (ECV) 2026 |
 | **RefineFormer3D: Efficient 3D Medical Image Segmentation via Adaptive Multi-Scale Transformer with Cross Attention Fusion** · Tyagi, Rathi, Goyal · [arXiv](https://arxiv.org/abs/2602.16320) | Preprint, 2026 |
