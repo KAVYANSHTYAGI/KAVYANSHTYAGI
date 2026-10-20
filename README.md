@@ -40,9 +40,10 @@ I build **efficient, robust models** for settings where compute, memory and priv
 | Paper | Venue |
 |---|---|
 | **Beyond the Frame: Redundancy, Not Trajectory, Carries the Privacy Leak in Video Unlearning** (PACE) · Tyagi & Russo · [project page](https://kavyanshtyagi.github.io/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning/) · [code](https://github.com/KAVYANSHTYAGI/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning) | WACV 2027 |
-| **LightMedSeg: Lightweight 3D Medical Image Segmentation with Learned Spatial Anchors** · Tyagi et al. · [code](https://github.com/KAVYANSHTYAGI/LightMedSeg) | CVPR Workshops (ECV) 2026 |
+| **Rate as a Feature, Not a Nuisance: Curriculum-FiLM Event GNN** (CEGNN) · Tyagi et al. · [code](https://github.com/kavyanshtyagi/CE-GNN) | ACCV 2026 Workshops (AECV) |
+| **LightMedSeg: Lightweight 3D Medical Image Segmentation with Learned Spatial Anchors** · Tyagi, Rathi, Goyal · [arXiv](https://arxiv.org/abs/2603.07228) | CVPR Workshops (ECV) 2026 |
+| **RefineFormer3D: Efficient 3D Medical Image Segmentation via Adaptive Multi-Scale Transformer with Cross Attention Fusion** · Tyagi, Rathi, Goyal · [arXiv](https://arxiv.org/abs/2602.16320) | Preprint, 2026 |
 | **SCAF: Robust Hyperspectral Classification via Optimal Transport-Based Spectral Grouping** · Tyagi et al. | Preprint, under review |
-| **RefineFormer3D: Hierarchical Multi-Scale Transformer for Parameter-Efficient 3D Medical Segmentation** · Tyagi et al. | Preprint, under review |
 | **Ghidra-Assisted Static Analysis and Ensemble Learning with Differential-Privacy GANs for Ransomware Detection** · Chaturvedi et al. | ICDAM 2025 |
 
 ---
@@ -52,7 +53,7 @@ I build **efficient, robust models** for settings where compute, memory and priv
 ### 🏥 LightMedSeg: 3D medical segmentation in 0.48M parameters
 `PyTorch` `3D CNNs` `Spatial Anchoring` `BraTS` `ACDC`
 
-Learned spatial anchors guide the decoder without full-resolution feature maps at every layer. **84.8% Dice on BraTS, 93.5% on ACDC, 0.48M parameters, 14 GFLOPs.** → [Code](https://github.com/KAVYANSHTYAGI/LightMedSeg)
+Learned spatial anchors guide the decoder without full-resolution feature maps at every layer. **84.8% Dice on BraTS, 93.5% on ACDC, 0.48M parameters, 14 GFLOPs.** → [arXiv](https://arxiv.org/abs/2603.07228)
 
 ### 🧪 ADVR & PACE: privacy leakage in class unlearning
 `PyTorch` `Adversarial training` `Semantic segmentation` `Video` `Mamba attackers`
