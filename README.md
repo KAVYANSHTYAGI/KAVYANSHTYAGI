@@ -1,98 +1,95 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Kavyansh%20Tyagi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Researcher%20%7C%20NIT%20Kurukshetra&descAlignY=58&descSize=18" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Kavyansh%20Tyagi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=ML%20Researcher%20%7C%20NIT%20Kurukshetra&descAlignY=58&descSize=18" />
 
 </div>
 
 <h3 align="center">
-3D Medical Segmentation &nbsp;•&nbsp; Efficient Vision Architectures &nbsp;•&nbsp; Event-Based Vision
+Efficient Vision &nbsp;•&nbsp; State Space Models &nbsp;•&nbsp; Event-Based Vision &nbsp;•&nbsp; Machine Unlearning
 </h3>
 
 <p align="center">
-  <em>3rd Year Undergraduate Researcher &nbsp;|&nbsp; NIT Kurukshetra, India</em><br/>
-  <em>Published in Springer & Elsevier &nbsp;|&nbsp; Targeting CVPR · MICCAI · NeurIPS · ICLR</em>
+  <em>Final-year B.Tech (ECE) undergraduate &nbsp;|&nbsp; NIT Kurukshetra, India &nbsp;|&nbsp; Class of 2027</em><br/>
+  <em>Collaborating with Sapienza University of Rome and the University of Tübingen</em>
 </p>
 
 <p align="center">
-  <a href="mailto:kavyansh.tyagi7@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://kavyanshtyagi.github.io"><img src="https://img.shields.io/badge/Website-111010?style=for-the-badge&logo=githubpages&logoColor=white"/></a>
+  <a href="https://scholar.google.com/citations?user=9Kg8eQUAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/kavyansh-tyagi-9b5410264/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/kavyanshtyagi"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="mailto:kavyansh.tyagi7@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
 ---
 
 ## 🧭 Research Identity
 
-I design **efficient deep learning architectures** for tasks where compute and memory are real constraints — not afterthoughts.
+I build **efficient, robust models** for settings where compute, memory and privacy are real constraints, not afterthoughts. The common thread is models that understand the structure of the data instead of memorizing surface statistics.
 
-My research centers on three threads:
-
-- **3D Medical Image Segmentation** — building lightweight transformer-based models (RefineFormer3D, LightMedSeg) that match or exceed SOTA on BraTS & Synapse benchmarks while dramatically cutting GFLOPs and parameters
-- **Efficient Attention & State Mechanisms** — designing novel sub-quadratic attention alternatives (Selective Holographic State) that trade full-rank attention for structured, hardware-friendly representations without sacrificing expressivity
-- **Event-Based Vision & Sparse Graph Learning** — leveraging the asynchronous, sparse nature of event camera data through GNN-based representations (SCAF) that process spatiotemporal structure without dense frame reconstruction
-
-My work is driven by a single question: *how do you get the most out of a model that's small enough to actually deploy?*
+- **State space models & hyperspectral vision**: Mamba/SSM architectures that respect the physics of the signal (SCAF, AbSpec-Mamba)
+- **3D medical segmentation**: sub-1M-parameter models for memory-constrained clinical hardware (LightMedSeg, RefineFormer3D)
+- **Event-based vision**: treating event rate as a feature rather than a nuisance (CEGNN)
+- **Machine unlearning & privacy auditing**: showing that "forgotten" classes still leak through a model's spatial and temporal output (ADVR, PACE)
 
 > *"Efficient by design. Principled by necessity."*
 
 ---
 
-## 🔬 Research Projects
+## 📄 Publications
+
+| Paper | Venue |
+|---|---|
+| **Beyond the Frame: Redundancy, Not Trajectory, Carries the Privacy Leak in Video Unlearning** (PACE) · Tyagi & Russo · [project page](https://kavyanshtyagi.github.io/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning/) · [code](https://github.com/KAVYANSHTYAGI/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning) | WACV 2027 |
+| **LightMedSeg: Lightweight 3D Medical Image Segmentation with Learned Spatial Anchors** · Tyagi et al. · [code](https://github.com/KAVYANSHTYAGI/LightMedSeg) | CVPR Workshops (ECV) 2026 |
+| **SCAF: Robust Hyperspectral Classification via Optimal Transport-Based Spectral Grouping** · Tyagi et al. | Preprint, under review |
+| **RefineFormer3D: Hierarchical Multi-Scale Transformer for Parameter-Efficient 3D Medical Segmentation** · Tyagi et al. | Preprint, under review |
+| **Ghidra-Assisted Static Analysis and Ensemble Learning with Differential-Privacy GANs for Ransomware Detection** · Chaturvedi et al. | ICDAM 2025 |
 
 ---
 
-### 🧠 RefineFormer3D — Efficient 3D Medical Segmentation
-`PyTorch` `CUDA` `Vision Transformers` `3D Attention` `BraTS2023` `Synapse`
+## 🔬 Selected Work
 
-**Problem:** Transformer-based 3D segmentation models (SwinUNETR, nnFormer, TransBTS) deliver strong accuracy but at prohibitive compute — limiting real-world clinical deployment.
+### 🏥 LightMedSeg: 3D medical segmentation in 0.48M parameters
+`PyTorch` `3D CNNs` `Spatial Anchoring` `BraTS` `ACDC`
 
-**Approach:** A lightweight encoder–decoder with anatomical priors injected as learned spatial constraints, paired with a coarse-to-fine refinement module. Memory-efficient 3D attention via custom CUDA kernels. Ablations across attention variants, prior injection depth, and decoder topology.
+Learned spatial anchors guide the decoder without full-resolution feature maps at every layer. **84.8% Dice on BraTS, 93.5% on ACDC, 0.48M parameters, 14 GFLOPs.** → [Code](https://github.com/KAVYANSHTYAGI/LightMedSeg)
 
-**Results:**
-- Outperforms published SOTA on **BraTS2023** and **Synapse** benchmarks
-- Significant reduction in GFLOPs and parameter count vs. transformer baselines
-- Full ablation suite validating each architectural decision
+### 🧪 ADVR & PACE: privacy leakage in class unlearning
+`PyTorch` `Adversarial training` `Semantic segmentation` `Video` `Mamba attackers`
 
-**Status:** Manuscript in preparation → **CVPR 2026 Workshop / MICCAI 2026**
+Segmentation unlearning that relabels a class leaves a class-shaped hole in the output. **ADVR** removes the silhouette itself and is the only method leak-safe on both output and feature surfaces (ADE20K, Cityscapes). **PACE** extends this to video: averaging outputs over a ~2 s clip recovers the forgotten class from every published baseline, and the signal comes from cross-frame redundancy, not trajectory. → [ADVR](https://github.com/KAVYANSHTYAGI/advr-unlearning) · [PACE](https://github.com/KAVYANSHTYAGI/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning)
 
----
+### 🌐 CEGNN: rate as a feature in event-camera GNNs
+`PyTorch Geometric` `GNNs` `Event cameras` `FiLM`
 
-### 🏥 LightMedSeg — Ultra-Lightweight 3D Segmentation with Learned Spatial Anchors
-`PyTorch` `3D CNNs` `Spatial Anchoring` `Medical Imaging` `BraTS` `Synapse`
+The log event rate of each recording drives identity-initialised FiLM layers, trained with a two-stage rate curriculum: **+14.0 points on DVS128 Gesture, +6.3 on N-Caltech101**, and +34 points under synthetic speed shifts, for 49K extra parameters. Negative results documented. → [Code](https://github.com/KAVYANSHTYAGI/CE-GNN)
 
-**Problem:** Even "lightweight" segmentation models assume GPU-class hardware. There is no strong baseline for truly resource-constrained 3D medical segmentation (mobile, edge, embedded clinical devices).
+### 🌈 SCAF: robust hyperspectral classification
+`Mamba` `Optimal transport` `Sinkhorn` `Hyperspectral`
 
-**Approach:** Introduces **learned spatial anchors** — a small set of trainable volumetric reference points that guide the decoder without requiring full-resolution feature maps at every layer. Eliminates skip connection overhead while preserving anatomical localization.
+Differentiable optimal-transport grouping of spectral bands with per-group Mamba processors turns spectral redundancy into graceful degradation: **+11.6% accuracy under 20–30% band dropout** against Transformer baselines.
 
-**Contribution:** Achieves competitive Dice scores at a fraction of the memory footprint of existing lightweight baselines. Evaluated on BraTS & Synapse with full FLOPs/parameter/latency profiling.
-
-**Status:** Architecture finalized → benchmarking phase → targeting **MICCAI 2026**
-
----
-
-### ⚡ SHS — Selective Holographic State for Efficient Attention
-`PyTorch` `Custom CUDA` `State Space Models` `Attention Mechanisms` `Sub-quadratic Complexity`
-
-**Problem:** Standard softmax attention scales as O(N²) in sequence length, making it impractical for high-resolution volumetric inputs (3D scans, long event streams). SSM alternatives (Mamba, S6) sacrifice expressivity for efficiency.
-
-**Approach:** **Selective Holographic State (SHS)** — a novel mechanism that represents attention as a low-rank holographic projection over a structured state matrix. Selectively retains interaction patterns based on input-conditioned gating, achieving sub-quadratic complexity without losing global context modeling.
-
-**Contribution:** Designed as a drop-in replacement for self-attention in vision transformer backbones; evaluated on classification, segmentation, and sequence modeling benchmarks.
-
-**Status:** Core implementation complete → ablation and benchmarking → targeting **ICLR / NeurIPS 2026**
+### 🛰️ In progress
+- **AbSpec-Mamba / VolMamba v2**: abundance-conditioned selective state transitions for physically grounded hyperspectral super-resolution (with Sapienza University of Rome)
+- **S6MOD**: regret-driven adaptive routing for mixture-of-experts under distribution shift
+- **Selective Holographic State (SHS)**: sub-quadratic attention alternative based on low-rank holographic projections
 
 ---
 
-### 🌐 SCAF — Sparse Graph Learning for Event-Based Vision
-`PyTorch Geometric` `GNNs` `Event Cameras` `Sparse Graphs` `Asynchronous Vision`
+## 🏗️ Building
 
-**Problem:** Event cameras produce asynchronous, sparse spike streams that dense CNN/transformer pipelines cannot efficiently process — they either reconstruct frames (losing temporal precision) or apply attention to padded dense tensors (wasting compute on empty regions).
+- **[Reflara](https://github.com/Reflara-ai/reflara-oss)**: replay-native execution-intelligence platform for autonomous AI agents. Deterministic record and replay of agent trajectories, written in Rust.
+- **[Qten.ai](https://qten.ai)**: AI engineering intern, building agentic orchestration for grounded conversational content generation.
+- **SIGPLAN-M**: operations team member, organizing international mentoring for programming-languages researchers.
 
-**Approach:** **SCAF (Sparse-to-Dense Causal Attention Framework)** models event streams directly as dynamic sparse graphs. Nodes represent active pixels; edges encode spatiotemporal proximity. A novel **temporal grouping mechanism** clusters nodes by activity burst patterns to prevent neighborhood explosion during message passing.
+---
 
-**Contribution:** Processes raw event streams without frame reconstruction; +15% over TGN baselines on large-scale temporal graph benchmarks (Wikipedia dataset, 5M+ nodes).
+## 🌍 Open Source
 
-**Status:** Validation phase → targeting **CVPR 2026 / NeurIPS 2026**
+| Project | Merged PRs | Focus |
+|---|---|---|
+| **[Lightning AI](https://github.com/Lightning-AI/lightning)** | 16 | Model compilation pipelines, argument-parsing edge cases, distributed training stability |
+| **[OpenCV](https://github.com/opencv/opencv)** | 9 | Bug fixes and API robustness in core computer-vision pipelines |
 
 ---
 
@@ -108,6 +105,7 @@ My work is driven by a single question: *how do you get the most out of a model 
 
 <p align="center">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch_Lightning-792EE5?style=for-the-badge&logo=lightning&logoColor=white" />
   <img src="https://img.shields.io/badge/JAX-3EBA77?style=for-the-badge&logo=jax&logoColor=black" />
   <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white" />
   <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black" />
@@ -122,33 +120,13 @@ My work is driven by a single question: *how do you get the most out of a model 
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
 
-**Hardware:** RTX 5080 (16GB VRAM) · 64GB RAM · CUDA 12.8 · PyTorch 2.9+
-
----
-
-## 📄 Publications
-
-- 📘 **[Paper Title]** — *Journal Name*, Springer, 2025. \[[DOI]()\]
-- 📗 **[Paper Title]** — *Journal Name*, Elsevier, 2025. \[[DOI]()\]
-
-> *Manuscripts in preparation: CVPR 2026 Workshop · MICCAI 2026 · NeurIPS 2026*
-
----
-
-## 🌍 Open Source Contributions
-
-| Project | Contribution |
-|---|---|
-| **PyTorch Lightning** | [Add your PR title + link here] |
-| **OpenCV** | [Add your PR title + link here] |
-
 ---
 
 ## 📊 GitHub Statistics
 
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=kavyanshtyagi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=kavyanshtyagi&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://streak-stats.demolab.com/?user=kavyanshtyagi&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
@@ -157,11 +135,11 @@ My work is driven by a single question: *how do you get the most out of a model 
 
 ---
 
-## 🤝 Currently Open To
+## 🤝 Open To
 
-- 🔬 **Research Internships (Summer 2026)** — University labs, AI research institutes, industrial research groups
-- 📝 **Research Collaborations** — 3D medical imaging, efficient attention, event-based vision, sparse GNNs
-- 💬 **Discussions** — Architecture design, sub-quadratic attention, state space models, CUDA optimization
+- 📝 **Research collaborations**: efficient vision, state space models, event-based vision, machine unlearning and privacy auditing
+- 🎓 **Graduate research opportunities** (2027 onward)
+- 💬 **Discussions**: architecture design, SSMs, unlearning evaluation, CUDA optimization
 
 > 📩 **kavyansh.tyagi7@gmail.com**
 
