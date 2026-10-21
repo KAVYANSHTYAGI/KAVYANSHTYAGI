@@ -40,8 +40,9 @@ I build **efficient, robust models** for settings where compute, memory and priv
 | Paper | Venue |
 |---|---|
 | **Beyond the Frame: Redundancy, Not Trajectory, Carries the Privacy Leak in Video Unlearning** (PACE) · Tyagi & Russo · [project page](https://kavyanshtyagi.github.io/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning/) · [code](https://github.com/KAVYANSHTYAGI/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning) | WACV 2027 |
-| **ADVR: Adversarial-Replay Unlearning for Leak-Safe Semantic Segmentation** · Tyagi et al. · [code](https://github.com/KAVYANSHTYAGI/advr-unlearning) | Under review, 2026 |
-| **Rate as a Feature, Not a Nuisance: Curriculum-FiLM Event GNN** (CEGNN) · Tyagi et al. · [code](https://github.com/kavyanshtyagi/CE-GNN) | ACCV 2026 Workshop on Advances in Event-based Computer Vision (AECV) |
+| **ADVR: Adversarial-Replay Unlearning for Leak-Safe Semantic Segmentation** · Tyagi & Russo · [code](https://github.com/KAVYANSHTYAGI/advr-unlearning) | Under review, 2026 |
+| **VolMamba v2 and AbSpec-Mamba: Physically Grounded State Space Models for Hyperspectral Super-Resolution** · Tyagi & Russo | Manuscript in preparation, 2026 |
+| **Rate as a Feature, Not a Nuisance: Curriculum-FiLM Event GNN** (CEGNN) · Tyagi & Ziegler · [code](https://github.com/kavyanshtyagi/CE-GNN) | ACCV 2026 Workshop on Advances in Event-based Computer Vision (AECV) |
 | **LightMedSeg: Lightweight 3D Medical Image Segmentation with Learned Spatial Anchors** · Tyagi, Rathi, Goyal · [arXiv](https://arxiv.org/abs/2603.07228) | CVPR Workshops (ECV) 2026 |
 | **RefineFormer3D: Efficient 3D Medical Image Segmentation via Adaptive Multi-Scale Transformer with Cross Attention Fusion** · Tyagi, Rathi, Goyal · [arXiv](https://arxiv.org/abs/2602.16320) | Preprint, 2026 |
 | **SCAF: Robust Hyperspectral Classification via Optimal Transport-Based Spectral Grouping** · Tyagi et al. | Preprint, under review |
@@ -69,7 +70,7 @@ The log event rate of each recording drives identity-initialised FiLM layers, tr
 ### 🌈 SCAF: robust hyperspectral classification
 `Mamba` `Optimal transport` `Sinkhorn` `Hyperspectral`
 
-Differentiable optimal-transport grouping of spectral bands with per-group Mamba processors turns spectral redundancy into graceful degradation: **+11.6% accuracy under 20–30% band dropout** against Transformer baselines.
+Differentiable optimal-transport grouping of spectral bands with per-group Mamba processors turns spectral redundancy into graceful degradation: **+11.6% accuracy under 20 to 30% band dropout** against Transformer baselines.
 
 ### 🛰️ In progress
 - **AbSpec-Mamba / VolMamba v2**: abundance-conditioned selective state transitions for physically grounded hyperspectral super-resolution (with Sapienza University of Rome)
