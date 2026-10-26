@@ -39,10 +39,10 @@ I build **efficient, robust models** for settings where compute, memory and priv
 
 | Paper | Venue |
 |---|---|
-| **Beyond the Frame: Redundancy, Not Trajectory, Carries the Privacy Leak in Video Unlearning** (PACE) · Tyagi & Russo · [project page](https://kavyanshtyagi.github.io/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning/) · [code](https://github.com/KAVYANSHTYAGI/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning) | WACV 2027 |
+| **Beyond the Frame: Redundancy, Not Trajectory, Carries the Privacy Leak in Video Unlearning** (PACE) · Tyagi & Russo · [arXiv](https://arxiv.org/abs/2610.27982) · [project page](https://kavyanshtyagi.github.io/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning/) · [code](https://github.com/KAVYANSHTYAGI/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning) | WACV 2027 |
 | **ADVR: Adversarial-Replay Unlearning for Leak-Safe Semantic Segmentation** · Tyagi & Russo · [code](https://github.com/KAVYANSHTYAGI/advr-unlearning) | Under review, 2026 |
 | **VolMamba v2 and AbSpec-Mamba: Physically Grounded State Space Models for Hyperspectral Super-Resolution** · Tyagi & Russo | Manuscript in preparation, 2026 |
-| **Rate as a Feature, Not a Nuisance: Curriculum-FiLM Event GNN** (CEGNN) · Tyagi & Ziegler · [code](https://github.com/kavyanshtyagi/CE-GNN) | ACCV 2026 Workshop on Advances in Event-based Computer Vision (AECV) |
+| **Rate as a Feature, Not a Nuisance: Curriculum FiLM Training for Event-Based Graph Neural Networks** (CEGNN) · Tyagi & Ziegler · [arXiv](https://arxiv.org/abs/2610.26933) · [code](https://github.com/kavyanshtyagi/CE-GNN) | ACCV 2026 Workshop on Advances in Event-based Computer Vision (AECV) |
 | **LightMedSeg: Lightweight 3D Medical Image Segmentation with Learned Spatial Anchors** · Tyagi, Rathi, Goyal · [arXiv](https://arxiv.org/abs/2603.07228) | CVPR Workshops (ECV) 2026 |
 | **RefineFormer3D: Efficient 3D Medical Image Segmentation via Adaptive Multi-Scale Transformer with Cross Attention Fusion** · Tyagi, Rathi, Goyal · [arXiv](https://arxiv.org/abs/2602.16320) | Preprint, 2026 |
 | **SCAF: Robust Hyperspectral Classification via Optimal Transport-Based Spectral Grouping** · Tyagi et al. | Preprint, under review |
@@ -60,12 +60,12 @@ Learned spatial anchors guide the decoder without full-resolution feature maps a
 ### 🧪 ADVR & PACE: privacy leakage in class unlearning
 `PyTorch` `Adversarial training` `Semantic segmentation` `Video` `Mamba attackers`
 
-Segmentation unlearning that relabels a class leaves a class-shaped hole in the output. **ADVR** removes the silhouette itself and is the only method leak-safe on both output and feature surfaces (ADE20K, Cityscapes). **PACE** extends this to video: averaging outputs over a ~2 s clip recovers the forgotten class from every published baseline, and the signal comes from cross-frame redundancy, not trajectory. → [ADVR](https://github.com/KAVYANSHTYAGI/advr-unlearning) · [PACE](https://github.com/KAVYANSHTYAGI/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning)
+Segmentation unlearning that relabels a class leaves a class-shaped hole in the output. **ADVR** removes the silhouette itself and is the only method leak-safe on both output and feature surfaces (ADE20K, Cityscapes). **PACE** extends this to video: averaging outputs over a ~2 s clip recovers the forgotten class from every published baseline, and the signal comes from cross-frame redundancy, not trajectory. → [ADVR](https://github.com/KAVYANSHTYAGI/advr-unlearning) · [PACE (arXiv)](https://arxiv.org/abs/2610.27982) · [PACE code](https://github.com/KAVYANSHTYAGI/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning)
 
 ### 🌐 CEGNN: rate as a feature in event-camera GNNs
 `PyTorch Geometric` `GNNs` `Event cameras` `FiLM`
 
-The log event rate of each recording drives identity-initialised FiLM layers, trained with a two-stage rate curriculum: **+14.0 points on DVS128 Gesture, +6.3 on N-Caltech101**, and +34 points under synthetic speed shifts, for 49K extra parameters. Negative results documented. → [Code](https://github.com/KAVYANSHTYAGI/CE-GNN)
+The log event rate of each recording drives identity-initialised FiLM layers, trained with a two-stage rate curriculum: **+14.0 points on DVS128 Gesture, +6.3 on N-Caltech101**, and +34 points under synthetic speed shifts, for 49K extra parameters. Negative results documented. → [arXiv](https://arxiv.org/abs/2610.26933) · [Code](https://github.com/KAVYANSHTYAGI/CE-GNN)
 
 ### 🌈 SCAF: robust hyperspectral classification
 `Mamba` `Optimal transport` `Sinkhorn` `Hyperspectral`
