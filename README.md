@@ -22,6 +22,20 @@ Efficient Vision &nbsp;•&nbsp; State Space Models &nbsp;•&nbsp; Event-Based 
 
 ---
 
+## 🆕 Latest
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2610.27982"><img src="https://img.shields.io/badge/arXiv-2610.27982-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white"/></a>
+  <a href="https://arxiv.org/abs/2610.26933"><img src="https://img.shields.io/badge/arXiv-2610.26933-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white"/></a>
+  <a href="https://arxiv.org/abs/2603.07228"><img src="https://img.shields.io/badge/arXiv-2603.07228-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white"/></a>
+</p>
+
+- **Oct 2026**: [**PACE**](https://arxiv.org/abs/2610.27982) (WACV 2027) shows that averaging a model's output over a ~2 s clip recovers the "forgotten" class from every published video-unlearning baseline, and that cross-frame redundancy, not trajectory, carries the leak. [Project page](https://kavyanshtyagi.github.io/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning/) · [Code](https://github.com/KAVYANSHTYAGI/PACE-Redundancy-Not-Trajectory-Carries-the-Privacy-Leak-in-Video-Unlearning)
+- **Oct 2026**: [**CEGNN**](https://arxiv.org/abs/2610.26933) (ACCV 2026 AECV workshop) conditions event-camera GNNs on event rate with FiLM: +14.0 points on DVS128 Gesture, +6.3 on N-Caltech101. [Code](https://github.com/kavyanshtyagi/CE-GNN)
+- **Mar 2026**: [**LightMedSeg**](https://arxiv.org/abs/2603.07228) (CVPR Workshops 2026) segments 3D medical volumes with 0.48M parameters.
+
+---
+
 ## 🧭 Research Identity
 
 I build **efficient, robust models** for settings where compute, memory and privacy are real constraints, not afterthoughts. The common thread is models that understand the structure of the data instead of memorizing surface statistics.
@@ -65,7 +79,7 @@ Segmentation unlearning that relabels a class leaves a class-shaped hole in the 
 ### 🌐 CEGNN: rate as a feature in event-camera GNNs
 `PyTorch Geometric` `GNNs` `Event cameras` `FiLM`
 
-The log event rate of each recording drives identity-initialised FiLM layers, trained with a two-stage rate curriculum: **+14.0 points on DVS128 Gesture, +6.3 on N-Caltech101**, and +34 points under synthetic speed shifts, for 49K extra parameters. Negative results documented. → [arXiv](https://arxiv.org/abs/2610.26933) · [Code](https://github.com/KAVYANSHTYAGI/CE-GNN)
+The log event rate of each recording drives identity-initialised FiLM layers, trained with a two-stage rate curriculum: **+14.0 points on DVS128 Gesture, +6.3 on N-Caltech101**, and +34 points under synthetic speed shifts. Negative results documented. → [arXiv](https://arxiv.org/abs/2610.26933) · [Code](https://github.com/KAVYANSHTYAGI/CE-GNN)
 
 ### 🌈 SCAF: robust hyperspectral classification
 `Mamba` `Optimal transport` `Sinkhorn` `Hyperspectral`
